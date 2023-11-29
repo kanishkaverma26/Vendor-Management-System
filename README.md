@@ -133,5 +133,5 @@ Then Add Email and Password
 **or Use Default Credentials**
 
 *For SuperAdmin*
-Email: kanishka@hashstudioz.com
+Email: kanishka
 Password: Hash@123
