@@ -70,13 +70,41 @@ $ python3 manage.py runserver
 ```
 
 **6. Accessing the Application**
-After running the server, you can access the following:
 
-Admin Panel: Open your web browser and navigate to http://localhost:8000/admin/
+After successfully running the server, you can access different components of the Vendor Management System.
 
-Swagger Documentation: http://localhost:8000/swagger/
+- **Admin Panel:**
+  - URL: [http://localhost:8000/admin/](http://localhost:8000/admin/)
+  - Use the superuser credentials created in step 6 to log in.
 
-APIs for Vendor and Purchase Orders: http://localhost:8000/api/
+- **Swagger Documentation:**
+  - URL: [http://localhost:8000/swagger/](http://localhost:8000/swagger/)
+  - Explore the API endpoints and their documentation using Swagger.
+
+- **API Endpoints:**
+  - URL: [http://localhost:8000/api/](http://localhost:8000/api/)
+  - The following endpoints are available:
+
+    - **Authentication:**
+      - Create a new authentication token (POST): [http://localhost:8000/api/token/](http://localhost:8000/api/token/)
+
+    - **Vendors:**
+      - List all vendors (GET): [http://localhost:8000/api/vendors/](http://localhost:8000/api/vendors/)
+      - Retrieve a specific vendor (GET): [http://localhost:8000/api/vendors/{vendor_id}/](http://localhost:8000/api/vendors/{vendor_id}/)
+      - Create a new vendor (POST): [http://localhost:8000/api/vendors/](http://localhost:8000/api/vendors/)
+      - Update a vendor (PUT): [http://localhost:8000/api/vendors/{vendor_id}/](http://localhost:8000/api/vendors/{vendor_id}/)
+      - Delete a vendor (DELETE): [http://localhost:8000/api/vendors/{vendor_id}/](http://localhost:8000/api/vendors/{vendor_id}/)
+      - Retrieve a specific vendor performance (GET): [http://localhost:8000/api/vendors/{vendor_id}/performance/](http://localhost:8000/api/vendors/{vendor_id}/performance/)
+
+    - **Purchase Orders:**
+      - List all purchase orders (GET): [http://localhost:8000/api/purchase_orders/](http://localhost:8000/api/purchase_orders/)
+      - Retrieve a specific purchase order (GET): [http://localhost:8000/api/purchase_orders/{order_id}/](http://localhost:8000/api/purchase_orders/{order_id}/)
+      - Create a new purchase order (POST): [http://localhost:8000/api/purchase_orders/](http://localhost:8000/api/purchase_orders/)
+      - Update a purchase order (PUT): [http://localhost:8000/api/purchase_orders/{order_id}/](http://localhost:8000/api/purchase_orders/{order_id}/)
+      - Delete a purchase order (DELETE): [http://localhost:8000/api/purchase_orders/{order_id}/](http://localhost:8000/api/purchase_orders/{order_id}/)
+      - Acknowledge a purchase order (POST): [http://localhost:8000/api/purchase_orders/{order_id}/acknowledge/](http://localhost:8000/api/purchase_orders/{order_id}/acknowledge/)
+
+Feel free to explore and interact with the provided API endpoints using the above URLs. Use POST to create new entries, PUT to update existing ones, and the Authentication endpoints to manage authentication tokens.
 
 **7. Login Credentials**
 
