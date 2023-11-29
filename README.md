@@ -88,6 +88,8 @@ After successfully running the server, you can access different components of th
 
     - **Authentication:**
       - Create a new authentication token (POST): [http://localhost:8000/api/token/](http://localhost:8000/api/token/)
+        
+        (Here you can use the default super admin credentials i.e. Username : kanishka and Password : Hash@123 )
 
     - **Vendors:**
       - List all vendors (GET): [http://localhost:8000/api/vendors/](http://localhost:8000/api/vendors/)
@@ -133,5 +135,7 @@ Then Add Email and Password
 **or Use Default Credentials**
 
 *For SuperAdmin*
+
 Email: kanishka
+
 Password: Hash@123
