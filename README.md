@@ -44,7 +44,7 @@ $  source bin/activate
 
 **3. Clone this project**
 ```
-$  git clone git@github.com:kanishkaverma26/Vendor-Management-System.gitt
+$  git clone https://github.com/kanishkaverma26/Vendor-Management-System.git
 ```
 
 **4. Install Requirements from 'requirements.txt'**
