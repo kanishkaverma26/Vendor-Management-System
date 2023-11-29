@@ -49,6 +49,7 @@ $  git clone https://github.com/kanishkaverma26/Vendor-Management-System.git
 
 **4. Install Requirements from 'requirements.txt'**
 ```python
+$  cd Vendor-Management-System\VMS\
 $  pip3 install -r requirements.txt
 ```
 
