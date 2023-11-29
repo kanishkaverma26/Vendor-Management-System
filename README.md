@@ -23,7 +23,7 @@ $  python3 -m venv venv
 ```
 For Linux
 ```
-$  virtualenv venv.
+$  virtualenv venv
 ```
 
 Activate Virtual Environment
@@ -40,6 +40,7 @@ $  source venv/bin/activate
 For Linux
 ```
 $  source bin/activate
+```
 
 **3. Clone this project**
 ```
@@ -70,7 +71,8 @@ $ python3 manage.py runserver
 
 **6. Login Credentials**
 
-Create Super User (HOD)
+Create Super User
+
 Command for PC:
 ```
 $  python manage.py createsuperuser
