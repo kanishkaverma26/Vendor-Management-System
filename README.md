@@ -23,7 +23,7 @@ $  python3 -m venv venv
 ```
 For Linux
 ```
-$  virtualenv .
+$  virtualenv venv.
 ```
 
 Activate Virtual Environment
