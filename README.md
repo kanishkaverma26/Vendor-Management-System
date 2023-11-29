@@ -52,7 +52,7 @@ $  git clone git@github.com:kanishkaverma26/Vendor-Management-System.gitt
 $  pip3 install -r requirements.txt
 ```
 
-**5. Now Run Server**
+**5. Run The Server**
 
 Command for PC:
 ```python
@@ -69,7 +69,16 @@ Command for Linux:
 $ python3 manage.py runserver
 ```
 
-**6. Login Credentials**
+**6. Accessing the Application**
+After running the server, you can access the following:
+
+Admin Panel: Open your web browser and navigate to http://localhost:8000/admin/
+
+Swagger Documentation: http://localhost:8000/swagger/
+
+APIs for Vendor and Purchase Orders: http://localhost:8000/api/
+
+**7. Login Credentials**
 
 Create Super User
 
