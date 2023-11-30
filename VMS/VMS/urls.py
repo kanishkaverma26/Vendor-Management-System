@@ -22,12 +22,11 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Your API",
+        title="Vendor Management System",
         default_version='v1',
-        description="Your API description",
-        terms_of_service="https://www.yourapp.com/terms/",
-        contact=openapi.Contact(email="contact@yourapp.com"),
-        license=openapi.License(name="Your License"),
+        description="The Vendor Management System will handle vendor profiles, track purchase orders, and calculate vendor performance metrics using Django web development framework in python language.",
+        # terms_of_service="https://www.yourapp.com/terms/",
+        contact=openapi.Contact(email="kanishkaverma2603@gmail.com"),
     ),
     public=True,
     permission_classes=(permissions.AllowAny,),

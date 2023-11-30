@@ -254,5 +254,5 @@ class AcknowledgePurchaseOrderView(generics.UpdateAPIView):
 
             # Recalculate average_response_time
             calculate_vendor_performance_metrics(purchase_order.vendor)
-
+        response = super().update(request, *args, **kwargs)
         return response
